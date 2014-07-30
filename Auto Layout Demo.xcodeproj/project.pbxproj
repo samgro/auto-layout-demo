@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		022B4CBEE17E4A70A4C7BA64 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A859C91CF43F462884FF7656 /* libPods.a */; };
 		210202CC198942920016F127 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 210202CB198942920016F127 /* Foundation.framework */; };
 		210202CE198942920016F127 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 210202CD198942920016F127 /* CoreGraphics.framework */; };
 		210202D0198942920016F127 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 210202CF198942920016F127 /* UIKit.framework */; };
@@ -19,6 +20,13 @@
 		210202E7198942920016F127 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 210202CF198942920016F127 /* UIKit.framework */; };
 		210202EF198942920016F127 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 210202ED198942920016F127 /* InfoPlist.strings */; };
 		210202F1198942920016F127 /* Auto_Layout_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 210202F0198942920016F127 /* Auto_Layout_DemoTests.m */; };
+		21307F641989469E006B4CA3 /* ALDRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21307F631989469E006B4CA3 /* ALDRootViewController.m */; };
+		21307F6719896FC6006B4CA3 /* UIView+ALDAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 21307F6619896FC6006B4CA3 /* UIView+ALDAutoLayout.m */; };
+		21307F6A1989793E006B4CA3 /* ALDLabelsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21307F691989793E006B4CA3 /* ALDLabelsViewController.m */; };
+		21307F6D19897AA5006B4CA3 /* ALDAutoHeightLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 21307F6C19897AA5006B4CA3 /* ALDAutoHeightLabel.m */; };
+		21307F7019897DA5006B4CA3 /* ALDTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21307F6F19897DA5006B4CA3 /* ALDTableViewController.m */; };
+		21307F7319898076006B4CA3 /* ALDTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 21307F7219898076006B4CA3 /* ALDTableViewCell.m */; };
+		21307F7619898BC4006B4CA3 /* ALDAnimationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21307F7519898BC4006B4CA3 /* ALDAnimationsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +56,22 @@
 		210202EC198942920016F127 /* Auto Layout DemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Auto Layout DemoTests-Info.plist"; sourceTree = "<group>"; };
 		210202EE198942920016F127 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		210202F0198942920016F127 /* Auto_Layout_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Auto_Layout_DemoTests.m; sourceTree = "<group>"; };
+		21307F621989469E006B4CA3 /* ALDRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALDRootViewController.h; sourceTree = "<group>"; };
+		21307F631989469E006B4CA3 /* ALDRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALDRootViewController.m; sourceTree = "<group>"; };
+		21307F6519896FC6006B4CA3 /* UIView+ALDAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ALDAutoLayout.h"; sourceTree = "<group>"; };
+		21307F6619896FC6006B4CA3 /* UIView+ALDAutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ALDAutoLayout.m"; sourceTree = "<group>"; };
+		21307F681989793E006B4CA3 /* ALDLabelsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALDLabelsViewController.h; sourceTree = "<group>"; };
+		21307F691989793E006B4CA3 /* ALDLabelsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALDLabelsViewController.m; sourceTree = "<group>"; };
+		21307F6B19897AA5006B4CA3 /* ALDAutoHeightLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALDAutoHeightLabel.h; sourceTree = "<group>"; };
+		21307F6C19897AA5006B4CA3 /* ALDAutoHeightLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALDAutoHeightLabel.m; sourceTree = "<group>"; };
+		21307F6E19897DA5006B4CA3 /* ALDTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALDTableViewController.h; sourceTree = "<group>"; };
+		21307F6F19897DA5006B4CA3 /* ALDTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALDTableViewController.m; sourceTree = "<group>"; };
+		21307F7119898076006B4CA3 /* ALDTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALDTableViewCell.h; sourceTree = "<group>"; };
+		21307F7219898076006B4CA3 /* ALDTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALDTableViewCell.m; sourceTree = "<group>"; };
+		21307F7419898BC4006B4CA3 /* ALDAnimationsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALDAnimationsViewController.h; sourceTree = "<group>"; };
+		21307F7519898BC4006B4CA3 /* ALDAnimationsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALDAnimationsViewController.m; sourceTree = "<group>"; };
+		2ED3C521CD36483B9523B4B3 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		A859C91CF43F462884FF7656 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +82,7 @@
 				210202CE198942920016F127 /* CoreGraphics.framework in Frameworks */,
 				210202D0198942920016F127 /* UIKit.framework in Frameworks */,
 				210202CC198942920016F127 /* Foundation.framework in Frameworks */,
+				022B4CBEE17E4A70A4C7BA64 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +106,7 @@
 				210202EA198942920016F127 /* Auto Layout DemoTests */,
 				210202CA198942920016F127 /* Frameworks */,
 				210202C9198942920016F127 /* Products */,
+				2ED3C521CD36483B9523B4B3 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,6 +126,7 @@
 				210202CD198942920016F127 /* CoreGraphics.framework */,
 				210202CF198942920016F127 /* UIKit.framework */,
 				210202E4198942920016F127 /* XCTest.framework */,
+				A859C91CF43F462884FF7656 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -109,8 +136,22 @@
 			children = (
 				210202DA198942920016F127 /* ALDAppDelegate.h */,
 				210202DB198942920016F127 /* ALDAppDelegate.m */,
+				21307F681989793E006B4CA3 /* ALDLabelsViewController.h */,
+				21307F691989793E006B4CA3 /* ALDLabelsViewController.m */,
+				21307F621989469E006B4CA3 /* ALDRootViewController.h */,
+				21307F631989469E006B4CA3 /* ALDRootViewController.m */,
 				210202DD198942920016F127 /* Images.xcassets */,
 				210202D2198942920016F127 /* Supporting Files */,
+				21307F6519896FC6006B4CA3 /* UIView+ALDAutoLayout.h */,
+				21307F6619896FC6006B4CA3 /* UIView+ALDAutoLayout.m */,
+				21307F6B19897AA5006B4CA3 /* ALDAutoHeightLabel.h */,
+				21307F6C19897AA5006B4CA3 /* ALDAutoHeightLabel.m */,
+				21307F6E19897DA5006B4CA3 /* ALDTableViewController.h */,
+				21307F6F19897DA5006B4CA3 /* ALDTableViewController.m */,
+				21307F7119898076006B4CA3 /* ALDTableViewCell.h */,
+				21307F7219898076006B4CA3 /* ALDTableViewCell.m */,
+				21307F7419898BC4006B4CA3 /* ALDAnimationsViewController.h */,
+				21307F7519898BC4006B4CA3 /* ALDAnimationsViewController.m */,
 			);
 			path = "Auto Layout Demo";
 			sourceTree = "<group>";
@@ -151,9 +192,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 210202F4198942920016F127 /* Build configuration list for PBXNativeTarget "Auto Layout Demo" */;
 			buildPhases = (
+				C12A486700D1476396E1CE77 /* Check Pods Manifest.lock */,
 				210202C4198942920016F127 /* Sources */,
 				210202C5198942920016F127 /* Frameworks */,
 				210202C6198942920016F127 /* Resources */,
+				863398AD4D354B429BD4B796 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -234,13 +277,53 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		863398AD4D354B429BD4B796 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C12A486700D1476396E1CE77 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		210202C4198942920016F127 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21307F6D19897AA5006B4CA3 /* ALDAutoHeightLabel.m in Sources */,
+				21307F7319898076006B4CA3 /* ALDTableViewCell.m in Sources */,
+				21307F641989469E006B4CA3 /* ALDRootViewController.m in Sources */,
+				21307F7619898BC4006B4CA3 /* ALDAnimationsViewController.m in Sources */,
+				21307F6719896FC6006B4CA3 /* UIView+ALDAutoLayout.m in Sources */,
 				210202DC198942920016F127 /* ALDAppDelegate.m in Sources */,
 				210202D8198942920016F127 /* main.m in Sources */,
+				21307F6A1989793E006B4CA3 /* ALDLabelsViewController.m in Sources */,
+				21307F7019897DA5006B4CA3 /* ALDTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,6 +439,7 @@
 		};
 		210202F5198942920016F127 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2ED3C521CD36483B9523B4B3 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -369,6 +453,7 @@
 		};
 		210202F6198942920016F127 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2ED3C521CD36483B9523B4B3 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -439,6 +524,7 @@
 				210202F6198942920016F127 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		210202F7198942920016F127 /* Build configuration list for PBXNativeTarget "Auto Layout DemoTests" */ = {
 			isa = XCConfigurationList;
@@ -447,6 +533,7 @@
 				210202F9198942920016F127 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
